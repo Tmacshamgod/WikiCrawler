@@ -1,0 +1,4 @@
+There are 72 successful paths
+Approximately 14.4% of 500 pages will eventually lead to Philosophy
+Average path length: 11.6388888889
+Path Length Distribution: {5: 2, 6: 1, 7: 2, 8: 3, 9: 2, 10: 4, 11: 11, 12: 20, 13: 16, 14: 9, 15: 1, 16: 1}
