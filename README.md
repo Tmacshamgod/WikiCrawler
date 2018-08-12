@@ -2,7 +2,7 @@ This Wiki crawler is based on **Scrapy** and plots outputs using **Matplotlib**.
 
 After analysing the results, I found that most of the pages loop in a cycle. Most of the pages go to the fact page, then go to reality page, then go to exist page, then loop back to reality pagain (fact->reality->exist->reality). According to this wiki page: [Getting_to_Philosophy](https://en.wikipedia.org/wiki/Wikipedia_talk:Getting_to_Philosophy), previously, for every random wiki page, a high percentage used to redirect to the Philosophy page, but not any more.
 
-Simply type python main.py to run the crawler after installing the dependencies in the requirements.txt, which after finishing, will generate the items.json, result.txt and result.png.
+Simply type python main.py to run the crawler after installing the dependencies in the requirements.txt, which after finishing, will generate the `items.json`, `result.txt` and `result.png`.
 
 Things that can be improved:
 * Crawl Wikipedia mobile links. Usually mobile pages can contain over 90% less data than full-sized pages while still retaining the necessary information and it's easier to crawl based on my past experience.
